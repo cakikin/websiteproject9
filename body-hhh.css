@@ -1,0 +1,28 @@
+/* Kontainer untuk gambar dan keterangan */
+.service-content {
+    display: flex;
+    align-items: center; /* Vertikal rata tengah */
+    gap: 20px; /* Jarak antara gambar dan teks */
+    margin-bottom: 20px; /* Memberikan jarak antar elemen layanan */
+  }
+  
+  /* Gambar */
+  .service-image {
+    width: 360px; /* Ukuran gambar, bisa disesuaikan */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 8px; /* Opsional, agar gambar memiliki sudut melengkung */
+  }
+  
+  /* Teks keterangan */
+  .service-description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 500px; /* Membatasi lebar teks agar tidak terlalu lebar */
+  }
+  
+  .tanda-tangan-niko{
+    width: 100px; 
+    height: auto;
+
+  }
